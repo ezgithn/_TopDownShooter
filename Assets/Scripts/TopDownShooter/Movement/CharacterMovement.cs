@@ -27,6 +27,7 @@ namespace GFA.TPS.Movement
 			_characterController = GetComponent<CharacterController>();
 		}
 
+		
 		private void Update()
 		{
 			var movement = new Vector3(MovementInput.x, 0, MovementInput.y);
