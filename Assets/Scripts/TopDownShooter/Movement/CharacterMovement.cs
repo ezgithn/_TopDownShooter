@@ -15,7 +15,7 @@ namespace GFA.TPS.Movement
 		public Vector2 MovementInput { get; set; }
 
 		[SerializeField]
-		private float _movementSpeed = 6;
+		private float _movementSpeed = 8;
 		
 		public float Rotation { get; set; }
 
