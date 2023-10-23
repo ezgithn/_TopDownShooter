@@ -25,6 +25,7 @@ namespace GFA.TPS.Movement
 		private void Awake()
 		{
 			_characterController = GetComponent<CharacterController>();
+			
 		}
 
 		
